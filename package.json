@@ -16,5 +16,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mike Fuller",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starbasealpha/starbase.git"
+  },
+  "keywords": [
+    "All",
+    "Starbase",
+    "Libaries"
+  ],
+  "bugs": {
+    "url": "https://github.com/starbasealpha/starbase/issues"
+  },
+  "homepage": "https://github.com/starbasealpha/starbase#readme"
 }
