@@ -1,5 +1,4 @@
 
-  starbase.Encryption = Encryption;
   starbase.Database = Database;
   starbase.memstore = memstore;
   starbase.Channels = Channels;
