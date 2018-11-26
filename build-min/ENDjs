@@ -6,6 +6,7 @@
   starbase.Socket = Socket;
   starbase.theRules = theRules;
   starbase.Encryption = Encryption;
+  starbase.Auth = Auth;
 
   return starbase;
 

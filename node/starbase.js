@@ -9,6 +9,7 @@ const ChannelsAPI = require('@starbase/channels/api');
 const theRules = require('@starbase/therules');
 const Socket = require('@starbase/socket');
 const Encryption = require('@starbase/encryption');
+const Auth = require('@starbase/auth');
 
 function Starbase() {
 
@@ -22,6 +23,7 @@ function Starbase() {
   starbase.theRules = theRules;
   starbase.Socket = Socket;
   starbase.DBService = DBService;
+  starbase.Auth = Auth;
 
   return starbase;
 
