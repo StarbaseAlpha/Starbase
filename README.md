@@ -34,8 +34,9 @@ var Channels = starbase.Channels;
 var ChannelsAPI = starbase.ChannelsAPI;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
-var Encryption = starbaseEncryption;
-
+var Encryption = starbase.Encryption;
+var Auth = starbase.Auth;
+var Profiles = starbase.Profiles;
 ```
 
 ### in Node.js using @starbase/starbase:
@@ -52,6 +53,8 @@ var ChannelsAPI = starbase.ChannelsAPI;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Encryption = starbase.Encryption;
+var Auth = starbase.Auth;
+var Profiles = starbase.Profiles;
 
 ```
 
@@ -60,13 +63,15 @@ var Encryption = starbase.Encryption;
 ### Manuals
 
 - [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Starbase-Alpha)
-- [Starbase Starbase Manual](https://github.com/StarbaseAlpha/Starbase)
+- [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
 - [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
 - [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 - [Starbase Defacto Manual](https://github.com/StarbaseAlpha/Defacto)
+- [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
+- [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
 
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
