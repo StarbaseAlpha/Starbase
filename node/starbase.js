@@ -10,6 +10,7 @@ const theRules = require('@starbase/therules');
 const Socket = require('@starbase/socket');
 const Encryption = require('@starbase/encryption');
 const Auth = require('@starbase/auth');
+const Admin = require('@starbase/admin');
 const Profiles = require('@starbase/profiles');
 
 function Starbase() {
@@ -25,6 +26,7 @@ function Starbase() {
   starbase.Socket = Socket;
   starbase.DBService = DBService;
   starbase.Auth = Auth;
+  starbase.Admin = Admin;
   starbase.Profiles = Profiles;
 
   return starbase;
