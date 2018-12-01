@@ -10,8 +10,9 @@ wget https://cdn.jsdelivr.net/npm/@starbase/encryption/encryption.min.js
 wget https://cdn.jsdelivr.net/npm/@starbase/auth/auth.min.js
 wget https://cdn.jsdelivr.net/npm/@starbase/admin/admin.min.js
 wget https://cdn.jsdelivr.net/npm/@starbase/profiles/profiles.min.js
+wget https://cdn.jsdelivr.net/npm/@starbase/pwa/pwa.js
 
-cat STARTjs database.min.js memstore.min.js channels.min.js channels.api.min.js socket.min.js therules.min.js encryption.min.js auth.min.js admin.min.js profiles.min.js ENDjs > starbase.js
+cat STARTjs database.min.js memstore.min.js channels.min.js channels.api.min.js socket.min.js therules.min.js encryption.min.js auth.min.js admin.min.js profiles.min.js pwa.js ENDjs > starbase.js
 
 uglifyjs -c -o ../starbase.min.js starbase.js
 rm starbase.js
@@ -25,3 +26,4 @@ rm encryption.min.js
 rm auth.min.js
 rm admin.min.js
 rm profiles.min.js
+rm pwa.js

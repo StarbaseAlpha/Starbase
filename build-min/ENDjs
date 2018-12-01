@@ -9,6 +9,7 @@
   starbase.Auth = Auth;
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
+  starbase.PWA = PWA;
 
   return starbase;
 

@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "All Starbase Libraries",
   "main": "app.js",
   "dependencies": {
@@ -12,7 +12,8 @@
     "@starbase/encryption": "latest",
     "@starbase/auth": "latest",
     "@starbase/admin": "latest",
-    "@starbase/profiles":"latest"
+    "@starbase/profiles":"latest",
+    "@starbase/pwa":"latest"
   },
   "devDependencies": {},
   "scripts": {
