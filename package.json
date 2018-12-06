@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All Starbase Libraries",
   "main": "app.js",
   "dependencies": {
