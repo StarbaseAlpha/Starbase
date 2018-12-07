@@ -1,7 +1,7 @@
 # Starbase
 All Starbase Libraries
 
-This project provides all Starbase Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Starbase-Alpha) for links to documentation for using each of the Starbase Libraries.
+This project provides all Starbase Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Starbase-Manual) for links to documentation for using each of the Starbase Libraries.
 
 ## Adding Starbase to your Project
 
@@ -35,7 +35,9 @@ var ChannelsAPI = starbase.ChannelsAPI;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Encryption = starbase.Encryption;
+var PWA = starbase.PWA;
 var Auth = starbase.Auth;
+var Admin = starbase.Admin;
 var Profiles = starbase.Profiles;
 ```
 
@@ -54,6 +56,7 @@ var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Encryption = starbase.Encryption;
 var Auth = starbase.Auth;
+var Admin = starbase.Admin;
 var Profiles = starbase.Profiles;
 
 ```
@@ -70,7 +73,9 @@ var Profiles = starbase.Profiles;
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
 - [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 - [Starbase Defacto Manual](https://github.com/StarbaseAlpha/Defacto)
+- [Starbase Progressive Web App Manual](https://github.com/StarbaseAlpha/PWA)
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
+- [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
 - [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
 
 ### Author
