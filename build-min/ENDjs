@@ -1,4 +1,3 @@
-
   starbase.Database = Database;
   starbase.memstore = memstore;
   starbase.Channels = Channels;
@@ -10,7 +9,5 @@
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
   starbase.PWA = PWA;
-
   return starbase;
-
 }
