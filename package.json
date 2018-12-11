@@ -1,11 +1,12 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "All Starbase Libraries",
   "main": "app.js",
   "dependencies": {
     "@starbase/database": "latest",
     "@starbase/channels": "latest",
+    "@starbase/client": "latest",
     "@starbase/socket": "latest",
     "@starbase/therules": "latest",
     "@starbase/defacto": "latest",

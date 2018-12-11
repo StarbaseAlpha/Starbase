@@ -1,7 +1,7 @@
   starbase.Database = Database;
   starbase.memstore = memstore;
   starbase.Channels = Channels;
-  starbase.ChannelsAPI = ChannelsAPI;
+  starbase.Client = Client;
   starbase.Socket = Socket;
   starbase.theRules = theRules;
   starbase.Encryption = Encryption;

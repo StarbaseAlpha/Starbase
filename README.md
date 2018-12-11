@@ -31,7 +31,7 @@ var starbase = Starbase();
 var Database = starbase.Database;
 var memstore = starbase.memstore;
 var Channels = starbase.Channels;
-var ChannelsAPI = starbase.ChannelsAPI;
+var Client = starbase.Client;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Encryption = starbase.Encryption;
@@ -51,7 +51,7 @@ var Database = starbase.Database;
 var memstore = starbase.memstore;
 var DBService = starbase.DBService;
 var Channels = starbase.Channels;
-var ChannelsAPI = starbase.ChannelsAPI;
+var Client = starbase.Client;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Encryption = starbase.Encryption;
@@ -68,11 +68,12 @@ var Profiles = starbase.Profiles;
 - [Starbase Manual](https://github.com/StarbaseAlpha/Manual)
 - [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
-- [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
+- [Starbase Database Channels Manual](https://github.com/StarbaseAlpha/Channels)
+- [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
 - [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
-- [Starbase Defacto Manual](https://github.com/StarbaseAlpha/Defacto)
+- [Starbase Defacto Web Server Manual](https://github.com/StarbaseAlpha/Defacto)
 - [Starbase Progressive Web App Manual](https://github.com/StarbaseAlpha/PWA)
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
