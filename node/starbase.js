@@ -20,11 +20,12 @@ function Starbase() {
   starbase.Defacto = Defacto;
   starbase.Database = Database;
   starbase.memstore = memstore;
+  starbase.DBService = DBService;
   starbase.Channels = Channels;
   starbase.Client = Client;
   starbase.theRules = theRules;
   starbase.Socket = Socket;
-  starbase.DBService = DBService;
+  starbase.Encryption = Encryption;
   starbase.Auth = Auth;
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
