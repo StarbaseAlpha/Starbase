@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "All Starbase Libraries",
   "main": "app.js",
   "dependencies": {
@@ -10,6 +10,7 @@
     "@starbase/socket": "latest",
     "@starbase/therules": "latest",
     "@starbase/defacto": "latest",
+    "@starbase/server": "latest",
     "@starbase/encryption": "latest",
     "@starbase/auth": "latest",
     "@starbase/admin": "latest",
