@@ -1,6 +1,7 @@
 'use strict';
 
 const Defacto = require('@starbase/defacto');
+const Server = require('@starbase/server');
 const Database = require('@starbase/database');
 const memstore = require('@starbase/database/memstore');
 const DBService = require('@starbase/database/dbservice');
@@ -18,6 +19,7 @@ function Starbase() {
   let starbase = {};
 
   starbase.Defacto = Defacto;
+  starbase.Server = Server;
   starbase.Database = Database;
   starbase.memstore = memstore;
   starbase.DBService = DBService;
