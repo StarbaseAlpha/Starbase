@@ -47,6 +47,7 @@ var Starbase = require('@starbase/starbase');
 var starbase = Starbase();
 
 var Defacto = starbase.Defacto;
+var Server = starbase.Server;
 var Database = starbase.Database;
 var memstore = starbase.memstore;
 var DBService = starbase.DBService;
@@ -69,6 +70,7 @@ var Profiles = starbase.Profiles;
 - [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
 - [Starbase Database Channels Manual](https://github.com/StarbaseAlpha/Channels)
+- [Starbase Channels Server Manual](https://github.com/StarbaseAlpha/Server)
 - [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
