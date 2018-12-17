@@ -1,7 +1,7 @@
 # Starbase
 All Starbase Libraries
 
-This project provides all Starbase Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Manual](https://github.com/StarbaseAlpha/Manual) for links to documentation for using each of the Starbase Libraries.
+This project provides all major Starbase Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Manual) for links to documentation for using each of the Starbase Libraries.
 
 ## Adding Starbase to your Project
 
@@ -59,14 +59,13 @@ var Encryption = starbase.Encryption;
 var Auth = starbase.Auth;
 var Admin = starbase.Admin;
 var Profiles = starbase.Profiles;
-
 ```
 
 ## More Information
 
 ### Manuals
 
-- [Starbase Manual](https://github.com/StarbaseAlpha/Manual)
+- [Starbase Alpha Software Manual](https://github.com/StarbaseAlpha/Manual)
 - [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
 - [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
