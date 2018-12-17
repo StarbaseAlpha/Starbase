@@ -69,7 +69,7 @@ var Profiles = starbase.Profiles;
 - [Starbase Manual](https://github.com/StarbaseAlpha/Manual)
 - [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
-- [Starbase Database Channels Manual](https://github.com/StarbaseAlpha/Channels)
+- [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 - [Starbase Channels Server Manual](https://github.com/StarbaseAlpha/Server)
 - [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
