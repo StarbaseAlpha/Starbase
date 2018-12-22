@@ -52,6 +52,7 @@ var Database = starbase.Database;
 var memstore = starbase.memstore;
 var DBService = starbase.DBService;
 var Channels = starbase.Channels;
+var Starfire = starbase.Starfire;
 var Client = starbase.Client;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
@@ -79,6 +80,6 @@ var Profiles = starbase.Profiles;
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
 - [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
-
+- [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
