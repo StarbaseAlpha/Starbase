@@ -7,6 +7,7 @@ const memstore = require('@starbase/database/memstore');
 const DBService = require('@starbase/database/dbservice');
 const Channels = require('@starbase/channels');
 const Starfire = require('@starbase/starfire');
+const Services = require('@starbase/services');
 const Client = require('@starbase/client');
 const theRules = require('@starbase/therules');
 const Socket = require('@starbase/socket');
@@ -26,6 +27,7 @@ function Starbase() {
   starbase.DBService = DBService;
   starbase.Channels = Channels;
   starbase.Starfire = Starfire;
+  starbase.Services = Services;
   starbase.Client = Client;
   starbase.theRules = theRules;
   starbase.Socket = Socket;
