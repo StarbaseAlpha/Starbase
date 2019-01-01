@@ -15,6 +15,7 @@ const Encryption = require('@starbase/encryption');
 const Auth = require('@starbase/auth');
 const Admin = require('@starbase/admin');
 const Profiles = require('@starbase/profiles');
+const Functions = require('@starbase/functions');
 
 function Starbase() {
 
@@ -35,6 +36,7 @@ function Starbase() {
   starbase.Auth = Auth;
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
+  starbase.Functions = Functions;
 
   return starbase;
 
