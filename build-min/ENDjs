@@ -3,6 +3,7 @@
   starbase.Channels = Channels;
   starbase.Client = Client;
   starbase.Socket = Socket;
+  starbase.Services = Services;
   starbase.theRules = theRules;
   starbase.Encryption = Encryption;
   starbase.Auth = Auth;
