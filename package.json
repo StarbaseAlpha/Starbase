@@ -1,8 +1,9 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "All Starbase Libraries",
-  "main": "app.js",
+  "main": "index.js",
+  "browser": "starbase.min.js",
   "dependencies": {
     "@starbase/database": "latest",
     "@starbase/channels": "latest",
