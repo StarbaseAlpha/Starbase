@@ -3,7 +3,7 @@
 const Defacto = require('@starbase/defacto');
 const Server = require('@starbase/server');
 const Database = require('@starbase/database');
-const memstore = require('@starbase/database/memstore');
+const Memstore = require('@starbase/memstore');
 const DBService = require('@starbase/database/dbservice');
 const Channels = require('@starbase/channels');
 const Starfire = require('@starbase/starfire');
@@ -24,7 +24,7 @@ function Starbase() {
   starbase.Defacto = Defacto;
   starbase.Server = Server;
   starbase.Database = Database;
-  starbase.memstore = memstore;
+  starbase.Memstore = Memstore;
   starbase.DBService = DBService;
   starbase.Channels = Channels;
   starbase.Starfire = Starfire;
