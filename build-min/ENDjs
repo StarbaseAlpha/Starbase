@@ -1,5 +1,5 @@
   starbase.Database = Database;
-  starbase.memstore = memstore;
+  starbase.Memstore = Memstore;
   starbase.Channels = Channels;
   starbase.Client = Client;
   starbase.Socket = Socket;
