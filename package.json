@@ -1,7 +1,7 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.2.18",
-  "description": "All Starbase Libraries",
+  "version": "0.3.0",
+  "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
   "dependencies": {
@@ -15,11 +15,9 @@
     "@starbase/therules": "latest",
     "@starbase/defacto": "latest",
     "@starbase/server": "latest",
-    "@starbase/encryption": "latest",
     "@starbase/auth": "latest",
     "@starbase/admin": "latest",
     "@starbase/profiles":"latest",
-    "@starbase/pwa": "latest",
     "@starbase/functions": "latest"
   },
   "devDependencies": {},
@@ -33,7 +31,6 @@
     "url": "git+https://github.com/starbasealpha/starbase.git"
   },
   "keywords": [
-    "All",
     "Starbase",
     "Libaries"
   ],
