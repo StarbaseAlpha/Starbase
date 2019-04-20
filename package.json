@@ -1,11 +1,12 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "All Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
   "dependencies": {
     "@starbase/database": "latest",
+    "@starbase/memstore": "latest",
     "@starbase/channels": "latest",
     "@starbase/client": "latest",
     "@starbase/starfire":"latest",
