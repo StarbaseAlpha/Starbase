@@ -5,10 +5,8 @@
   starbase.Socket = Socket;
   starbase.Services = Services;
   starbase.theRules = theRules;
-  starbase.Encryption = Encryption;
   starbase.Auth = Auth;
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
-  starbase.PWA = PWA;
   return starbase;
 }
