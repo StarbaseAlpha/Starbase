@@ -2,6 +2,7 @@
   starbase.Memstore = Memstore;
   starbase.Channels = Channels;
   starbase.Client = Client;
+  starbase.WebSQL = WebSQL;
   starbase.Socket = Socket;
   starbase.Services = Services;
   starbase.theRules = theRules;
