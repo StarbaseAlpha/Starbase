@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
@@ -9,6 +9,7 @@
     "@starbase/memstore": "latest",
     "@starbase/channels": "latest",
     "@starbase/client": "latest",
+    "@starbase/websql": "latest",
     "@starbase/starfire":"latest",
     "@starbase/services":"latest",
     "@starbase/socket": "latest",
