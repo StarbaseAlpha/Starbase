@@ -30,6 +30,7 @@ var starbase = Starbase();
 
 var Database = starbase.Database;
 var Memstore = starbase.Memstore;
+var WebSQL = starbase.WebSQL;
 var Channels = starbase.Channels;
 var Client = starbase.Client;
 var theRules = starbase.theRules;
@@ -77,7 +78,7 @@ var Profiles = starbase.Profiles;
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
 - [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
 - [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
-
+- [Starbase WebSQL Datastore Manual](https://github.com/StarbaseAlpha/WebSQL)
 
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
