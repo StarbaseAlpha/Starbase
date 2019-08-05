@@ -15,6 +15,7 @@ const Auth = require('@starbase/auth');
 const Admin = require('@starbase/admin');
 const Profiles = require('@starbase/profiles');
 const Functions = require('@starbase/functions');
+const Cryptic = require('@starbase/cryptic');
 
 function Starbase() {
 
