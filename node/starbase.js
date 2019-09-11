@@ -36,6 +36,7 @@ function Starbase() {
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
   starbase.Functions = Functions;
+  starbase.Cryptic = Cryptic;
 
   return starbase;
 
