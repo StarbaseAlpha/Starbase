@@ -48,7 +48,6 @@ var starbase = Starbase();
 var Server = starbase.Server;
 var Database = starbase.Database;
 var Memstore = starbase.Memstore;
-var DBService = starbase.DBService;
 var Channels = starbase.Channels;
 var Starfire = starbase.Starfire;
 var Client = starbase.Client;
