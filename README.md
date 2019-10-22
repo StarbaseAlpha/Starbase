@@ -1,7 +1,7 @@
 # Starbase
-All Starbase Libraries
+Starbase Core Libraries
 
-This project provides the main Starbase Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Manual) for links to documentation for using each of the Starbase Libraries.
+This project provides the Starbase Core Libaries for Node.js and the Web in a single package. Please refer to the [Starbase Alpha Manual](https://github.com/StarbaseAlpha/Manual) for links to documentation for using each of the Starbase Libraries.
 
 ## Adding Starbase to your Project
 
@@ -30,14 +30,14 @@ var starbase = Starbase();
 
 var Database = starbase.Database;
 var Memstore = starbase.Memstore;
-var WebSQL = starbase.WebSQL;
 var Channels = starbase.Channels;
 var Client = starbase.Client;
 var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Auth = starbase.Auth;
 var Admin = starbase.Admin;
-var Profiles = starbase.Profiles;
+var Cryptic = starbase.Cryptic;
+var CryptoDB = starbae.CryptoDB;
 ```
 
 ### in Node.js using @starbase/starbase:
@@ -45,7 +45,6 @@ var Profiles = starbase.Profiles;
 var Starbase = require('@starbase/starbase');
 var starbase = Starbase();
 
-var Defacto = starbase.Defacto;
 var Server = starbase.Server;
 var Database = starbase.Database;
 var Memstore = starbase.Memstore;
@@ -57,7 +56,8 @@ var theRules = starbase.theRules;
 var Socket = starbase.Socket;
 var Auth = starbase.Auth;
 var Admin = starbase.Admin;
-var Profiles = starbase.Profiles;
+var Cryptic = starbase.Cryptic;
+var CryptoDB = starbae.CryptoDB;
 ```
 
 ## More Information
@@ -73,12 +73,11 @@ var Profiles = starbase.Profiles;
 - [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
-- [Starbase Defacto Web Server Manual](https://github.com/StarbaseAlpha/Defacto)
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
-- [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
+- [Starbase Cryptic Manual](https://github.com/StarbaseAlpha/Cryptic)
+- [Starbase CryptoDB Manual](https://github.com/StarbaseAlpha/CryptoDB)
 - [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
-- [Starbase WebSQL Datastore Manual](https://github.com/StarbaseAlpha/WebSQL)
 
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
