@@ -37,7 +37,8 @@ var Socket = starbase.Socket;
 var Auth = starbase.Auth;
 var Admin = starbase.Admin;
 var Cryptic = starbase.Cryptic;
-var CryptoDB = starbae.CryptoDB;
+var CryptoDB = starbase.CryptoDB;
+var Encryption = starbase.Encryption;
 ```
 
 ### in Node.js using @starbase/starbase:
@@ -56,7 +57,8 @@ var Socket = starbase.Socket;
 var Auth = starbase.Auth;
 var Admin = starbase.Admin;
 var Cryptic = starbase.Cryptic;
-var CryptoDB = starbae.CryptoDB;
+var CryptoDB = starbase.CryptoDB;
+var Encryption = starbase.Encryption;
 ```
 
 ## More Information
@@ -76,6 +78,7 @@ var CryptoDB = starbae.CryptoDB;
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
 - [Starbase Cryptic Manual](https://github.com/StarbaseAlpha/Cryptic)
 - [Starbase CryptoDB Manual](https://github.com/StarbaseAlpha/CryptoDB)
+- [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 - [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
 
 ### Author

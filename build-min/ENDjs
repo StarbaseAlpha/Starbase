@@ -9,5 +9,6 @@
   starbase.PWA = PWA;
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
+  starbase.Encryption = Encryption;
   return starbase;
 }
