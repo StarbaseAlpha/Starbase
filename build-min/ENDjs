@@ -11,5 +11,6 @@
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
   starbase.Encryption = Encryption;
+  starbase.Services = Services;
   return starbase;
 }
