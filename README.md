@@ -39,6 +39,7 @@ var Admin = starbase.Admin;
 var Cryptic = starbase.Cryptic;
 var CryptoDB = starbase.CryptoDB;
 var Encryption = starbase.Encryption;
+var Services = starbase.Services;
 ```
 
 ### in Node.js using @starbase/starbase:
@@ -59,6 +60,8 @@ var Admin = starbase.Admin;
 var Cryptic = starbase.Cryptic;
 var CryptoDB = starbase.CryptoDB;
 var Encryption = starbase.Encryption;
+var Services = starbase.Services;
+var Functions = starbase.Functions;
 ```
 
 ## More Information
@@ -80,6 +83,8 @@ var Encryption = starbase.Encryption;
 - [Starbase CryptoDB Manual](https://github.com/StarbaseAlpha/CryptoDB)
 - [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 - [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
+- [Starbase Functions Manual](https://github.com/StarbaseAlpha/Functions)
+- [Starbase Services Manual](https://github.com/StarbaseAlpha/Services)
 
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
