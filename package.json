@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
@@ -20,7 +20,8 @@
     "@starbase/cryptodb":"latest",
     "@starbase/encryption":"latest",
     "@starbase/functions":"latest",
-    "@starbase/services":"latest"
+    "@starbase/services":"latest",
+    "@starbase/topics":"latest"
   },
   "devDependencies": {},
   "scripts": {
