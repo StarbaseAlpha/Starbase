@@ -17,6 +17,7 @@ const Encryption = require('@starbase/encryption');
 const Services = require('@starbase/services');
 const Functions = require('@starbase/functions');
 const Topics = require('@starbase/topics');
+const Push = require('@starbase/push');
 
 function Starbase() {
 
@@ -39,6 +40,7 @@ function Starbase() {
   starbase.Services = Services;
   starbase.Functions = Functions;
   starbase.Topics = Topics;
+  starbase.Push = Push;
 
   return starbase;
 

@@ -13,5 +13,6 @@
   starbase.Encryption = Encryption;
   starbase.Services = Services;
   starbase.Topics = Topics;
+  starbase.Push = Push;
   return starbase;
 }
