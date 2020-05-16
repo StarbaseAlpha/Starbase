@@ -14,5 +14,6 @@
   starbase.Services = Services;
   starbase.Topics = Topics;
   starbase.Push = Push;
+  starbase.Files = Files;
   return starbase;
 }
