@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.4.13",
+  "version": "0.4.14",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
@@ -23,7 +23,8 @@
     "@starbase/services":"latest",
     "@starbase/topics":"latest",
     "@starbase/push":"latest",
-    "@starbase/files":"latest"
+    "@starbase/files":"latest",
+    "@starbase/realtime":"latest"
   },
   "devDependencies": {},
   "scripts": {
