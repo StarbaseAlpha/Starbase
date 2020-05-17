@@ -15,5 +15,7 @@
   starbase.Topics = Topics;
   starbase.Push = Push;
   starbase.Files = Files;
+  starbase.Realtime = Realtime;
+  starbase.WEBRTC = WEBRTC;
   return starbase;
 }
