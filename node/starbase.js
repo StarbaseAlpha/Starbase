@@ -19,6 +19,7 @@ const Functions = require('@starbase/functions');
 const Topics = require('@starbase/topics');
 const Push = require('@starbase/push');
 const Files = require('@starbase/files');
+const Realtime = require('@starbase/realtime');
 
 function Starbase() {
 
@@ -43,6 +44,7 @@ function Starbase() {
   starbase.Topics = Topics;
   starbase.Push = Push;
   starbase.Files = Files;
+  starbase.Realtime = Realtime;
 
   return starbase;
 
