@@ -17,5 +17,6 @@
   starbase.Files = Files;
   starbase.Realtime = Realtime;
   starbase.WEBRTC = WEBRTC;
+  starbase.Triples = Triples;
   return starbase;
 }
