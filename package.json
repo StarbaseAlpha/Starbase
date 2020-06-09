@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.4.22",
+  "version": "0.4.23",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
