@@ -8,5 +8,5 @@ wget $REPOS_SRC\Cryptic/master/cryptic.min.js $REPOS_SRC\CryptoDB/master/cryptod
 wget $REPOS_SRC\Push/master/push.min.js $REPOS_SRC\Files/master/files.min.js
 wget $REPOS_SRC\WEBRTC/master/webrtc.min.js $REPOS_SRC\Realtime/master/realtime.min.js $REPOS_SRC\Triples/master/triples.min.js
 cat STARTjs database.min.js memstore.min.js channels.min.js client.min.js socket.min.js therules.min.js auth.min.js admin.min.js profiles.min.js pwa.min.js cryptic.min.js cryptodb.min.js encryption.min.js services.min.js topics.min.js push.min.js files.min.js webrtc.min.js realtime.min.js triples.min.js ENDjs > starbase.js
-uglifyjs -c -o ../starbase.min.js starbase.js
+uglifyjs -c --webkit -o ../starbase.min.js starbase.js
 rm starbase.js database.min.js memstore.min.js channels.min.js client.min.js socket.min.js therules.min.js auth.min.js admin.min.js profiles.min.js pwa.min.js cryptic.min.js cryptodb.min.js encryption.min.js services.min.js topics.min.js push.min.js files.min.js webrtc.min.js realtime.min.js triples.min.js
