@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.4.31",
+  "version": "0.4.50",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
@@ -11,7 +11,6 @@
     "@starbase/starfire":"latest",
     "@starbase/socket": "latest",
     "@starbase/therules": "latest",
-    "@starbase/server": "latest",
     "@starbase/client": "latest",
     "@starbase/auth": "latest",
     "@starbase/admin": "latest",
@@ -19,13 +18,11 @@
     "@starbase/cryptic":"latest",
     "@starbase/cryptodb":"latest",
     "@starbase/encryption":"latest",
-    "@starbase/functions":"latest",
-    "@starbase/services":"latest",
     "@starbase/topics":"latest",
     "@starbase/push":"latest",
-    "@starbase/files":"latest",
     "@starbase/realtime":"latest",
-    "@starbase/triples":"latest"
+    "@starbase/pages":"latest",
+    "@starbase/webrtc":"latest"
   },
   "devDependencies": {},
   "scripts": {
