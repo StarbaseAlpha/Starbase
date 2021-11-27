@@ -13,7 +13,7 @@ This project provides the Starbase Core Libaries for Node.js and the Web in a si
 
 ### On the Web via jsdelivr CDN
 ```HTML
-<script src="https://cdn.jsdelivr.net/npm/@starbase/starbase/starbase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@starbase/starbase"></script>
 ```
 
 ### In NodeJS
@@ -26,42 +26,47 @@ npm install @starbase/starbase
 
 ### on the Web using starbase.min.js:
 ```javascript
-var starbase = Starbase();
+const starbase = Starbase();
 
-var Database = starbase.Database;
-var Memstore = starbase.Memstore;
-var Channels = starbase.Channels;
-var Client = starbase.Client;
-var theRules = starbase.theRules;
-var Socket = starbase.Socket;
-var Auth = starbase.Auth;
-var Admin = starbase.Admin;
-var Cryptic = starbase.Cryptic;
-var CryptoDB = starbase.CryptoDB;
-var Encryption = starbase.Encryption;
-var Services = starbase.Services;
+const Database = starbase.Database;
+const Memstore = starbase.Memstore;
+const Channels = starbase.Channels;
+const Client = starbase.Client;
+const theRules = starbase.theRules;
+const Auth = starbase.Auth;
+const Admin = starbase.Admin;
+const Profiles = starbase.Profiles;
+const Socket = starbase.Socket;
+const Realtime = starbase.Realtime;
+const Cryptic = starbase.Cryptic;
+const CryptoDB = starbase.CryptoDB;
+const Encryption = starbase.Encryption;
+const Topics = starbase.Topics;
+const Push = starbase.Push;
 ```
 
 ### in Node.js using @starbase/starbase:
 ```javascript
-var Starbase = require('@starbase/starbase');
-var starbase = Starbase();
+const Starbase = require('@starbase/starbase');
+const starbase = Starbase();
 
-var Server = starbase.Server;
-var Database = starbase.Database;
-var Memstore = starbase.Memstore;
-var Channels = starbase.Channels;
-var Starfire = starbase.Starfire;
-var Client = starbase.Client;
-var theRules = starbase.theRules;
-var Socket = starbase.Socket;
-var Auth = starbase.Auth;
-var Admin = starbase.Admin;
-var Cryptic = starbase.Cryptic;
-var CryptoDB = starbase.CryptoDB;
-var Encryption = starbase.Encryption;
-var Services = starbase.Services;
-var Functions = starbase.Functions;
+const Database = starbase.Database;
+const Memstore = starbase.Memstore;
+const Channels = starbase.Channels;
+const Client = starbase.Client;
+const Starfire = starbase.Starfire;
+const theRules = starbase.theRules;
+const Auth = starbase.Auth;
+const Admin = starbase.Admin;
+const Profiles = starbase.Profiles;
+const Socket = starbase.Socket;
+const Realtime = starbase.Realtime;
+const Cryptic = starbase.Cryptic;
+const CryptoDB = starbase.CryptoDB;
+const Encryption = starbase.Encryption;
+const Topics = starbase.Topics;
+const Push = starbase.Push;
+const Pages = starbase.Pages;
 ```
 
 ## More Information
@@ -69,22 +74,23 @@ var Functions = starbase.Functions;
 ### Manuals
 
 - [Starbase Alpha Software Manual](https://github.com/StarbaseAlpha/Manual)
-- [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
+- [Starbase Core Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 - [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
 - [Starbase Memstore Manual](https://github.com/StarbaseAlpha/Memstore)
-- [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
-- [Starbase Channels Server Manual](https://github.com/StarbaseAlpha/Server)
+- [Starbase Channels Database Manual](https://github.com/StarbaseAlpha/Channels)
 - [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
-- [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
+- [Starbase Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
+- [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
+- [Starbase Realtime Manual](https://github.com/StarbaseAlpha/Realtime)
 - [Starbase Cryptic Manual](https://github.com/StarbaseAlpha/Cryptic)
 - [Starbase CryptoDB Manual](https://github.com/StarbaseAlpha/CryptoDB)
 - [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 - [Starbase Starfire Manual](https://github.com/StarbaseAlpha/Starfire)
-- [Starbase Functions Manual](https://github.com/StarbaseAlpha/Functions)
-- [Starbase Services Manual](https://github.com/StarbaseAlpha/Services)
+- [Starbase Topics Manual](https://github.com/StarbaseAlpha/Topics)
+- [Starbase Pages Manual](https://github.com/StarbaseAlpha/Pages)
 
 ### Author
 Hi, my name is Mike. Thanks for taking an interest in my work.
