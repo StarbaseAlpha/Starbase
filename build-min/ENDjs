@@ -3,6 +3,7 @@
   starbase.Channels = Channels;
   starbase.Client = Client;
   starbase.Socket = Socket;
+  starbase.Realtime = Realtime;
   starbase.theRules = theRules;
   starbase.Auth = Auth;
   starbase.Admin = Admin;
@@ -11,12 +12,9 @@
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
   starbase.Encryption = Encryption;
-  starbase.Services = Services;
   starbase.Topics = Topics;
   starbase.Push = Push;
-  starbase.Files = Files;
-  starbase.Realtime = Realtime;
   starbase.WEBRTC = WEBRTC;
-  starbase.Triples = Triples;
+  starbase.Pages = Pages;
   return starbase;
 }

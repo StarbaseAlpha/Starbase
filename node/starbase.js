@@ -1,6 +1,5 @@
 'use strict';
 
-const Server = require('@starbase/server');
 const Database = require('@starbase/database');
 const Memstore = require('@starbase/memstore');
 const Channels = require('@starbase/channels');
@@ -14,19 +13,15 @@ const Profiles = require('@starbase/profiles');
 const Cryptic = require('@starbase/cryptic');
 const CryptoDB = require('@starbase/cryptodb');
 const Encryption = require('@starbase/encryption');
-const Services = require('@starbase/services');
-const Functions = require('@starbase/functions');
 const Topics = require('@starbase/topics');
 const Push = require('@starbase/push');
-const Files = require('@starbase/files');
 const Realtime = require('@starbase/realtime');
-const Triples = require('@starbase/triples');
+const Pages = require('@starbase/pages');
 
 function Starbase() {
 
   let starbase = {};
 
-  starbase.Server = Server;
   starbase.Database = Database;
   starbase.Memstore = Memstore;
   starbase.Channels = Channels;
@@ -40,13 +35,10 @@ function Starbase() {
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
   starbase.Encryption = Encryption;
-  starbase.Services = Services;
-  starbase.Functions = Functions;
   starbase.Topics = Topics;
   starbase.Push = Push;
-  starbase.Files = Files;
   starbase.Realtime = Realtime;
-  starbase.Triples = Triples;
+  starbase.Pages = Pages;
 
   return starbase;
 
