@@ -14,6 +14,7 @@ const Files = require('@starbase/files');
 const Cryptic = require('@starbase/cryptic');
 const CryptoDB = require('@starbase/cryptodb');
 const Encryption = require('@starbase/encryption');
+const Messages = require('@starbase/messages');
 const Topics = require('@starbase/topics');
 const Push = require('@starbase/push');
 const Realtime = require('@starbase/realtime');
@@ -37,6 +38,7 @@ function Starbase() {
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
   starbase.Encryption = Encryption;
+  starbase.Messages = Messages;
   starbase.Topics = Topics;
   starbase.Push = Push;
   starbase.Realtime = Realtime;

@@ -19,6 +19,7 @@
     "@starbase/cryptic":"latest",
     "@starbase/cryptodb":"latest",
     "@starbase/encryption":"latest",
+    "@starbase/messages":"latest",
     "@starbase/topics":"latest",
     "@starbase/push":"latest",
     "@starbase/realtime":"latest",

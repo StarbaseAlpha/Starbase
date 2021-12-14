@@ -13,6 +13,7 @@
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
   starbase.Encryption = Encryption;
+  starbase.Messages = Messages;
   starbase.Topics = Topics;
   starbase.Push = Push;
   starbase.WEBRTC = WEBRTC;
