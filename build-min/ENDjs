@@ -8,6 +8,7 @@
   starbase.Auth = Auth;
   starbase.Admin = Admin;
   starbase.Profiles = Profiles;
+  starbase.Files = Files;
   starbase.PWA = PWA;
   starbase.Cryptic = Cryptic;
   starbase.CryptoDB = CryptoDB;
