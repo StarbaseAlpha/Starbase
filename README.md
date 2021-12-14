@@ -36,6 +36,7 @@ const theRules = starbase.theRules;
 const Auth = starbase.Auth;
 const Admin = starbase.Admin;
 const Profiles = starbase.Profiles;
+const Files = starbase.Files;
 const Socket = starbase.Socket;
 const Realtime = starbase.Realtime;
 const Cryptic = starbase.Cryptic;
@@ -59,6 +60,7 @@ const theRules = starbase.theRules;
 const Auth = starbase.Auth;
 const Admin = starbase.Admin;
 const Profiles = starbase.Profiles;
+const Files = starbase.Files;
 const Socket = starbase.Socket;
 const Realtime = starbase.Realtime;
 const Cryptic = starbase.Cryptic;
@@ -83,6 +85,7 @@ const Pages = starbase.Pages;
 - [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 - [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
 - [Starbase Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
+- [Starbase Files Manual](https://github.com/StarbaseAlpha/Files)
 - [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 - [Starbase Realtime Manual](https://github.com/StarbaseAlpha/Realtime)
 - [Starbase Cryptic Manual](https://github.com/StarbaseAlpha/Cryptic)
