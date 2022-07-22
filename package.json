@@ -1,6 +1,6 @@
 {
   "name": "@starbase/starbase",
-  "version": "0.4.58",
+  "version": "0.4.59",
   "description": "Starbase Libraries",
   "main": "index.js",
   "browser": "starbase.min.js",
@@ -43,5 +43,9 @@
   "bugs": {
     "url": "https://github.com/starbasealpha/starbase/issues"
   },
-  "homepage": "https://github.com/starbasealpha/starbase#readme"
+  "homepage": "https://github.com/starbasealpha/starbase#readme",
+  "dependencies":{
+    "express":"latest",
+    "compression":"latest"
+  }
 }
